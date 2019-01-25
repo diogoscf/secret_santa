@@ -1,0 +1,18 @@
+﻿{
+  "@lang" : {
+    "lang": "Français",
+    "short": "fr"
+  },
+  "big-title": "Tirage au Sort d'Ami Invisible",
+  "how-many": "Combien de Participants?",
+  "number": "Numéro",
+  "confirm-amount": "Confirmer",
+  "bad-amount": "*Entrée erronée. Veuillez insérer un nombre supérieur ou égal à 2",
+  "insert-names": "Quels sont les noms?",
+  "participant": "Participant",
+  "name-placeholder": "Nom",
+  "bad-names": "*Veuillez remplir toutes les boîtes",
+  "pick-santas": "Tirer au Sort",
+  "giver": "Donneur de Cadeau",
+  "receiver": "Récepteur de Cadeau"
+}

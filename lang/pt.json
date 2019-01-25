@@ -1,0 +1,18 @@
+﻿{
+  "@lang" : {
+    "lang": "Português",
+    "short": "pt"
+  },
+  "big-title": "Sorteador de Amigo Secreto",
+  "how-many": "Quantos Participantes?",
+  "number": "Número",
+  "confirm-amount": "Confirmar",
+  "bad-amount": "*Entrada inválida. Por favor insira um número igual ou superior a 2",
+  "insert-names": "Quais são os nomes?",
+  "participant": "Participante",
+  "name-placeholder": "Nome",
+  "bad-names": "*Por favor complete todas as caixas",
+  "pick-santas": "Sortear Amigos Secretos",
+  "giver": "Doador de Presente",
+  "receiver": "Recetor de Presente"
+}

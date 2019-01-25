@@ -1,0 +1,18 @@
+﻿{
+  "@lang" : {
+    "lang": "English",
+    "short": "en"
+  },
+  "big-title": "Secret Santa Picker",
+  "how-many": "How many participants?",
+  "number": "Number",
+  "confirm-amount": "Confirm",
+  "bad-amount": "*Your input is not valid. Please enter a number greater than or equal to two",
+  "insert-names": "What are their names?",
+  "participant": "Participant",
+  "name-placeholder": "Name",
+  "bad-names": "*Please fill out all boxes",
+  "pick-santas": "Pick Secret Santas",
+  "giver": "Present Giver",
+  "receiver": "Present Receiver"
+}

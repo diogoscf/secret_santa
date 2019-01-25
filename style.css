@@ -1,0 +1,120 @@
+body {
+  margin: 20px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1em;
+  background-image: url(presents_bg.jpg);
+}
+
+h1 {
+  font-family: "Oswald";
+}
+
+.bodywrap {
+  width: 70%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: white;
+  min-height: 800px;
+}
+
+table {
+  display: none;
+  min-width: 60%;
+}
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+  margin: 0 auto;
+}
+
+.badform {
+  color: red;
+  display: none;
+  font-size: 0.8em;
+}
+
+button {
+  font-size: 1.1rem;
+  border-radius: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.forms {
+  display: flex;
+}
+
+.column {
+  flex: 33%;
+  padding: 10px;
+}
+
+#participants {
+  display: none;
+}
+
+.languagepicker {
+	background-color: #a5a5a5;
+	display: inline-block;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+	transition: all .3s ease;
+	margin: 0 50px 10px 0;
+	vertical-align: top;
+  position: absolute;
+  top: 25px;
+  right: 15%;
+  z-index: 1000;
+}
+
+.languagepicker:hover {
+	/* don't forget the 1px border */
+	height: 121px;
+}
+
+.languagepicker a{
+	color: #000;
+	text-decoration: none;
+}
+
+.languagepicker li {
+	display: block;
+	padding: 0px 20px;
+	line-height: 40px;
+	border-top: 1px solid #EEE;
+}
+
+.languagepicker li:hover{
+	background-color: #EEE;
+}
+
+.languagepicker a:first-child li {
+	border: none;
+	background: #a5a5a5 !important;
+}
+
+.languagepicker li img {
+	margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.roundborders {
+	border-radius: 5px;
+}
+
+.large:hover {
+	/*
+	don't forget the 1px border!
+	The first language is 40px heigh,
+	the others are 41px
+	*/
+	height: 245px;
+}

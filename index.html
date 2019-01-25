@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Secret Santa Picker</title>
+  <meta charset="UTF-8">
+  <script src="secretsanta.js" type="text/javascript"></script>
+  <script src="lang/language.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="bodywrap">
+    <ul class="languagepicker roundborders"></ul>
+    <div id="amount">
+      <h1 id="big-title"></h1>
+      <h2 id="how-many"></h2>
+      <input type="number" name="partsAmount" id="number"><br><br>
+      <button onclick="confirmAmount()" id="confirm-amount"></button>
+      <p class="badform" id="bad-amount"></p>
+    </div>
+    <br>
+    <div id="participants">
+      <h2 id="insert-names"></h2>
+      <div class="forms">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+      </div>
+      <br>
+      <p class="badform" id="bad-names"></p>
+      <button onclick="giveFriend()" id="pick-santas"></button><br><br>
+      <table>
+        <thead>
+          <tr>
+            <th id="giver"></th>
+            <th id="receiver"></th>
+          </tr>
+        </thead>
+        <tbody id="partstable">
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
